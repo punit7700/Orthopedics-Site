@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Dua's Speciality Clinic</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#"><span>Dr. Dua's</span> Clinic</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Specialities</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Rehabilitation</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+          <li class="nav-item ms-lg-3"><a class="btn btn-success" href="#">Appointment</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SLIDER -->
+  <div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- SLIDE 1 -->
+      <div class="carousel-item active">
+        <section class="hero">
+          <div class="container">
+            <h1>KNEE REPLACEMENT SURGERY</h1>
+            <div class="row justify-content-center g-4">
+              <div class="col-md-3">
+                <div class="case-card">
+                  <img
+                    src="https://images.unsplash.com/photo-1759813641406-980519f58b1c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c3VyZ2VyeSUyMGltYWdlfGVufDB8fDB8fHww" />
+                  <span class="tag">BEFORE SURGERY</span>
+                </div>
+
+              </div>
+              <div class="col-md-3">
+                <div class="case-card">
+                  <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5" />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="case-card">
+                  <img
+                    src="https://media.istockphoto.com/id/452533341/photo/operation.jpg?s=612x612&w=0&k=20&c=PrifPHwI2uci2YuqpyOdhb9q2CgxTbrPC0-8T3rkLEI=" />
+                  <span class="tag">AFTER SURGERY</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-bar">
+            <form class="row g-3">
+              <div class="col-md-3"><input type="text" class="form-control" placeholder="Full Name"></div>
+              <div class="col-md-3"><input type="tel" class="form-control" placeholder="Phone No."></div>
+              <div class="col-md-3"><input type="email" class="form-control" placeholder="Email"></div>
+              <div class="col-md-3"><button class="w-100">Contact Now →</button></div>
+            </form>
+          </div>
+        </section>
+      </div>
+
+      <!-- SLIDE 2 -->
+      <div class="carousel-item">
+        <section class="hero">
+          <div class="container">
+            <h1>HIP REPLACEMENT SURGERY</h1>
+            <div class="row justify-content-center g-4">
+              <div class="col-md-3">
+                <div class="case-card"><img
+                    src="https://plus.unsplash.com/premium_photo-1661274078177-3975521e1101?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aGlwJTIwcmVwbGFjZW1lbnQlMjBzdXJnZXJ5fGVufDB8fDB8fHww">
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="case-card"><img
+                    src="https://images.unsplash.com/photo-1763198302745-57cb94135f11?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aGlwJTIwcmVwbGFjZW1lbnQlMjBzdXJnZXJ5fGVufDB8fDB8fHww">
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="case-card"><img
+                    src="https://media.istockphoto.com/id/2156594644/photo/skeleton-with-osteoarthritis-hip-joint-pain.jpg?s=612x612&w=0&k=20&c=7F_uDpu0Thq0aaB1APEWiSBF75wo2QhxVs9e3Ic3xQk=">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-bar">
+            <form class="row g-3">
+              <div class="col-md-3"><input class="form-control" placeholder="Full Name"></div>
+              <div class="col-md-3"><input class="form-control" placeholder="Phone No."></div>
+              <div class="col-md-3"><input class="form-control" placeholder="Email"></div>
+              <div class="col-md-3"><button class="w-100">Contact Now →</button></div>
+            </form>
+          </div>
+        </section>
+      </div>
+
+      <!-- SLIDE 3 -->
+      <div class="carousel-item">
+        <section class="hero">
+          <div class="container">
+            <h1>SHOULDER ARTHROSCOPY</h1>
+            <div class="row justify-content-center g-4">
+              <div class="col-md-3">
+                <div class="case-card"><img
+                    src="https://images.unsplash.com/photo-1676155081561-865fab11da37?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHNob3VsZGVyJTIwYXJ0aHJvc2NvcHklMjBzdXJnZXJ5fGVufDB8fDB8fHww">
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="case-card"><img
+                    src="https://media.istockphoto.com/id/2151303822/photo/woman-with-pain-in-shoulder-illustration.jpg?s=612x612&w=0&k=20&c=kP8891azuOilkUYnrsmSPJiGgz4LKdBCPe4frnj4Oho=">
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="case-card"><img
+                    src="https://media.istockphoto.com/id/2206798041/photo/orthopedic-surgeons-learn-to-perform-knee-surgery.jpg?s=612x612&w=0&k=20&c=KjxzjhuOhIaK1mB5d99vynjQ1oEU609x2mLVWve7Z7k=">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-bar">
+            <form class="row g-3">
+              <div class="col-md-3"><input class="form-control" placeholder="Full Name"></div>
+              <div class="col-md-3"><input class="form-control" placeholder="Phone No."></div>
+              <div class="col-md-3"><input class="form-control" placeholder="Email"></div>
+              <div class="col-md-3"><button class="w-100">Contact Now →</button></div>
+            </form>
+          </div>
+        </section>
+      </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+
+  <section class="py-5 bg-white">
+    <div class="container">
+      <div class="row align-items-center">
+
+
+        <!-- Doctor Image -->
+        <div class="col-lg-5 text-center position-relative mb-4 mb-lg-0">
+          <div style="background:#c9ff8f;border-radius:50%;width:320px;height:320px;margin:auto;"></div>
+          <img
+            src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZG9jdG9yfGVufDB8fDB8fHww"
+            alt="Doctor"
+            style="width:460px;height: 600px;position:absolute;bottom:-90px;left:50%;transform:translateX(-50%);">
+
+
+          <div class="position-absolute bg-white shadow rounded p-3" style="top:40px;left:0;">
+            <strong>12+</strong><br>Years Experience
+          </div>
+
+
+          <div class="position-absolute bg-white shadow rounded p-3"
+            style="bottom:20px;left:50%;transform:translateX(-50%);">
+            <strong>70K+</strong><br>Happy Patients
+          </div>
+        </div>
+
+
+        <!-- Doctor Content -->
+        <div class="col-lg-7">
+          <p class="text-success fw-bold">KNOW YOUR DOCTOR</p>
+          <h2 class="fw-bold">Dr. Apoorv Dua</h2>
+          <h5 class="text-muted mb-3">Best Orthopedic Doctor in Delhi</h5>
+
+
+          <p class="fw-semibold">M.B.B.S., M.S. Orthopaedics</p>
+          <p class="text-muted">FIJRR (Germany), FIAS (Mumbai)<br>
+            FIFA Diploma (Switzerland), IFICS Fellowship
+          </p>
+
+
+          <p>
+            Dr. Apoorv Dua is a highly skilled orthopedic surgeon renowned for his expertise in hip, knee,
+            and shoulder replacement and reconstruction. With a patient-centric approach and years of experience,
+            he provides comprehensive care in the following areas:
+          </p>
+
+
+          <div class="border rounded p-3 mb-2">
+            <strong>+ Joint Replacement & Reconstruction</strong>
+            <p class="mt-2 mb-0 text-muted">Comprehensive care for hip, knee, and shoulder joint replacement surgeries
+              using
+              advanced techniques to restore mobility, reduce pain, and improve quality of life.</p>
+          </div>
+          <div class="border rounded p-3 mb-2">
+            <strong>+ Arthroscopic & Sports Injury Treatments</strong>
+            <p class="mt-2 mb-0 text-muted">Minimally invasive arthroscopic procedures for ligament injuries, meniscus
+              tears, and
+              sports-related trauma, ensuring faster recovery and optimal performance.</p>
+          </div>
+          <div class="border rounded p-3 mb-2">
+            <strong>+ Advanced Regenerative & Non-Surgical Treatments</strong>
+            <p class="mt-2 mb-0 text-muted">State-of-the-art regenerative therapies such as PRP and stem-cell-based
+              treatments
+              aimed at healing tissues naturally and avoiding surgery whenever possible.</p>
+          </div>
+          <div class="border rounded p-3 mb-3">
+            <strong>+ Traumatology & Complex Fracture Management</strong>
+            <p class="mt-2 mb-0 text-muted">Expert management of complex fractures and trauma cases using evidence-based
+              surgical
+              and non-surgical approaches for optimal bone healing and recovery.</p>
+          </div>
+
+
+          <a href="#" class="btn btn-success px-4">Read More →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Third Section -->
+  <section class="services-section">
+    <h2>WE OFFER<br><span>DIFFERENT SERVICES TO IMPROVE<br>YOUR HEALTH</span></h2>
+    <div class="underline"></div>
+
+    <div class="services-grid">
+
+      <div class="service-card">
+        <img
+          src="https://media.istockphoto.com/id/1396876134/photo/asian-senior-or-elderly-old-lady-woman-patient-show-her-scars-surgical-total-knee-joint.jpg?s=612x612&w=0&k=20&c=nbiT52H2U4VJmIVe6HuSwU5obqjGRti8hqNS-IGeHtE=">
+        <h4>JOINT REPLACEMENT</h4>
+      </div>
+
+      <div class="service-card">
+        <img
+          src="https://images.unsplash.com/photo-1678872381876-a2a3afe03fd8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8QUNMJTIwJTI2JTIwUENMJTIwU1VSR0VSWXxlbnwwfHwwfHx8MA%3D%3D"
+          alt="ACL Surgery">
+        <h4>ACL & PCL SURGERY</h4>
+      </div>
+
+      <div class="service-card">
+        <img
+          src="https://media.istockphoto.com/id/2238641328/photo/woman-in-pain-expression-suffering-from-post-surgery-shoulder-pain-recovery-and.jpg?s=612x612&w=0&k=20&c=M_7crrdoHRu7tuaB2jyQ5sGy4lo31zhyc7iT5Kp07-U="
+          alt="Shoulder Treatment">
+        <h4>SHOULDER TREATMENTS</h4>
+      </div>
+
+      <div class="service-card">
+        <img
+          src="https://media.istockphoto.com/id/1181682650/photo/pretty-patient-sitting-on-the-blue-mat-in-the-gym-and-training-with-the-ball.jpg?s=612x612&w=0&k=20&c=-KHn8sKFPtZiYb0A4vPCx705TBvZSy4WbkSVzEwtI5U="
+          alt="Sports Injuries">
+        <h4>SPORTS INJURIES</h4>
+      </div>
+
+      <div class="service-card">
+        <img
+          src="https://plus.unsplash.com/premium_photo-1672760403355-fa10b5beb2d3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Tk9OLVNVUkdJQ0FMJTIwVFJFQVRNRU5UfGVufDB8fDB8fHww"
+          alt="Non Surgical">
+        <h4>NON-SURGICAL TREATMENT</h4>
+      </div>
+
+      <div class="service-card">
+        <img
+          src="https://media.istockphoto.com/id/1471719690/photo/close-up-of-professional-surgeon-proctologist-performing-operation-using-special-devices-for.jpg?s=612x612&w=0&k=20&c=jti7XDXD0M53YC6asXdbkgMXGXjxBLaVCc9g0XbEssc="
+          alt="Traumatology">
+        <h4>TRAUMATOLOGY & COMPLEX FRACTURE</h4>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Fourth Section -->
+  <section class="appointment-section">
+    <div class="appointment-container">
+
+      <!-- LEFT : FORM -->
+      <div class="appointment-form">
+        <h2>GET APPOINTMENT</h2>
+
+        <div class="row1">
+          <input type="text" placeholder="Full Name">
+          <input type="text" placeholder="Phone No.">
+        </div>
+
+        <input type="email" placeholder="Email Address">
+        <input type="date">
+        <textarea placeholder="Message"></textarea>
+
+        <button class="send-btn">Send Us →</button>
+      </div>
+
+      <!-- RIGHT : OPD HOURS -->
+      <div class="opd-hours">
+        <h2>OPD HOURS</h2>
+
+        <h4>DR. DUA'S SPECIALITY CLINIC</h4>
+        <div class="time-row">
+          <span>Mon - Sat</span>
+          <span>5 PM - 8 PM</span>
+        </div>
+        <div class="time-row">
+          <span>Sunday</span>
+          <span>Closed</span>
+        </div>
+
+        <h4>INDIAN SPINAL INJURIES CENTRE</h4>
+        <div class="time-row">
+          <span>Mon - Sat</span>
+          <span>9AM - 4PM</span>
+        </div>
+        <div class="time-row">
+          <span>Sunday</span>
+          <span>Closed</span>
+        </div>
+
+        <div class="call-box">
+          CALL NOW:<br>
+          <strong>+91-9034333133</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fifth Section -->
+  <section class="insta-section">
+    <h2>INSTAGRAM <span><u>INSIGHT</u></span></h2>
+
+    <div class="insta-slider">
+      <button class="nav-btn left" onclick="moveSlide(-1)">‹</button>
+
+      <div class="insta-track" id="instaTrack">
+        <div class="insta-card"><img src="./Image/premium_photo-1764687902308-52f2f22d5f2d.avif"></div>
+        <div class="insta-card"><img src="./Image/photo-1579684288452-b334934f845f.avif"></div>
+        <div class="insta-card"><img src="./Image/photo-1676155081561-865fab11da37.avif"></div>
+        <div class="insta-card"><img src="images/i4.jpg"></div>
+        <div class="insta-card"><img src="images/i5.jpg"></div>
+      </div>
+
+      <button class="nav-btn right" onclick="moveSlide(1)">›</button>
+    </div>
+
+    <div class="dots">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+    <a href="https://instagram.com" target="_blank" class="view-more">
+      View More →
+    </a>
+  </section>
+
+  <!-- Sixth Section -->
+  <section class="youtube-section">
+    <h2>YOUTUBE <span><u>INSIGHT</u></span></h2>
+
+    <div class="youtube-slider">
+      <button class="nav-btn left" onclick="moveSlide(-1)">‹</button>
+
+      <div class="youtube-track" id="youtubeTrack">
+        <div class="youtube-card"><img src="./Image/photo-1676155081561-865fab11da37.avif"></div>
+        <div class="youtube-card"><img src="./Image/photo-1579684288452-b334934f845f.avif"></div>
+        <div class="youtube-card"><img src="./Image/photo-1759813641406-980519f58b1c.avif"></div>
+        <div class="youtube-card"><img src=""></div>
+        <div class="youtube-card"><img src=""></div>
+        <div class="youtube-card"><img src=""></div>
+      </div>
+
+      <button class="nav-btn right" onclick="moveSlide(1)">›</button>
+    </div>
+
+    <div class="dots">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+    <a href="https://youtube.com" target="_blank" class="view-more">
+      View More →
+    </a>
+  </section>
+
+  <!-- Seventh Section -->
+  <section class="why-choose-section">
+    <div class="why-container">
+
+      <!-- LEFT CONTENT -->
+      <div class="why-content">
+        <h2>WHY CHOOSE US</h2>
+        <br>
+        <h3><span style="color: #b6ff7a;">EXPERT ORTHOPEDIC</span> CARE FOR A PAIN-FREE LIFE</h3>
+
+        <p>
+          At our clinic, you can expect care from an experienced orthopedic
+          surgeon committed to restoring your mobility and improving your
+          quality of life. We specialize in treating fractures, sports injuries,
+          arthritis, and a wide range of musculoskeletal conditions.
+        </p>
+
+        <h4>HERE’S WHY PATIENTS CHOOSE US:</h4>
+
+        <ul>
+          <li><strong>Expertise in Orthopedic Care:</strong> Years of experience in diagnosing and treating complex
+            musculoskeletal issues.</li>
+          <li><strong>Holistic Approach:</strong> Personalized treatment plans tailored to each patient’s unique needs.
+          </li>
+          <li><strong>Focus on Patient Education:</strong> Helping patients make informed decisions about their health.
+          </li>
+          <li><strong>Compassionate Care:</strong> A dedicated commitment to improving your health and well-being.</li>
+        </ul>
+      </div>
+
+      <!-- RIGHT IMAGES -->
+      <img src="./Image/photo-1676155081561-865fab11da37.avif" alt="" class="why-images">
+
+    </div>
+
+    <!-- STATS -->
+    <div class="stats-container">
+      <div class="stat-box">
+        <img src="./Image/dua-web.png" alt="" class="healthcare">
+        <br><br>
+        <h3>70,000+</h3>
+        <p>Patients Experience</p>
+      </div>
+      <div class="stat-box">
+        <img src="./Image/dua-web-2.png" alt="" class="healthcare">
+        <br><br>
+        <h3>25,000+</h3>
+        <p>Procedures</p>
+      </div>
+      <div class="stat-box">
+        <img src="./Image/dua-web-1.png" alt="" class="healthcare">
+        <br><br>
+        <h3>60,000+</h3>
+        <p>Trauma Surgeries</p>
+      </div>
+      <div class="stat-box">
+        <img src="./Image/joint-replacement-1.png" alt="" class="healthcare">
+        <br><br>
+        <h3>5000</h3>
+        <p>Joint Replacement Surgeries</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Eight Section -->
+  <section class="media-section">
+    <h5>OUR NEWS</h5>
+    <h2>MEDIA COVERAGE</h2>
+
+    <div class="media-slider">
+      <div class="media-track" id="mediaTrack">
+        <div class="media-card"><img src="https://www.healthshots.com/how-to/walk-10000-steps-a-day/"></div>
+        <div class="media-card"><img src="https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/bone-infection-if-not-treated-in-time-may-cause-permanent-bone-loss/articleshow/117483540.cms">
+        </div>
+        <div class="media-card"><img src="images/india-com.png"></div>
+        <div class="media-card"><img src="images/indian-express.png"></div>
+        <div class="media-card"><img src="images/times-entertainment.png"></div>
+      </div>
+    </div>
+
+    <div class="media-dots" id="mediaDots"></div>
+  </section>
+
+
+  <!-- Nine Section -->
+  <section class="social-section">
+
+    <!-- Gallery -->
+    <div class="gallery">
+      <h2>IMAGE GALLERY</h2>
+
+      <div class="gallery-grid">
+        <img src="./Image/20.jpg" alt="Gallery Image">
+        <img src="./Image/admin-ajax-7-2.webp" alt="Gallery Image">
+        <img src="./Image/mc36jimxricen1ripc47.webp" alt="Gallery Image">
+        <img src="./Image/obth7oexzdlqa1io851a.webp" alt="Gallery Image">
+      </div>
+    </div>
+
+    <!-- Facebook Ads -->
+    <div class="facebook-feed">
+      <h2>FACEBOOK FEED</h2>
+
+      <iframe
+        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F108554028463961&tabs=timeline&width=500&height=520&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true"
+        width="100%" height="520" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+        allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+      </iframe>
+    </div>
+
+  </section>
+
+  <!-- Tenth Section -->
+  <section class="team-section">
+    <h2><u>OUR TEAM</u></h2>
+
+    <div class="team-slider-wrapper">
+      <button class="nav-btn left" onclick="slideTeam(-1)">‹</button>
+
+      <div class="team-slider" id="teamSlider">
+
+        <!-- MEMBER 1 -->
+        <div class="team-card">
+          <img src="./Image/10007.webp">
+        </div>
+
+        <!-- MEMBER 2 -->
+        <div class="team-card">
+          <img src="./Image/10006.webp">
+        </div>
+
+        <!-- MEMBER 3 -->
+        <div class="team-card">
+          <img src="./Image/10005.webp">
+        </div>
+
+        <!-- MEMBER 4 -->
+        <div class="team-card">
+          <img src="./Image/10004.webp">
+        </div>
+
+        <!-- MEMBER 5 -->
+        <div class="team-card">
+          <img src="./Image/10003.webp">
+        </div>
+
+        <!-- MEMBER 6 -->
+        <div class="team-card">
+          <img src="./Image/10002.webp">
+        </div>
+
+        <!-- MEMBER 7 -->
+        <div class="team-card">
+          <img src="./Image/10001.webp">
+        </div>
+
+      </div>
+
+      <button class="nav-btn right" onclick="slideTeam(1)">›</button>
+    </div>
+  </section>
+
+
+  <!-- Section Eleven -->
+  <section class="reviews-section">
+
+    <h2>WHAT OUR PATIENTS SAY</h2>
+    <p class="based"><span style="color: #777;">Based on</span> <b>160 reviews</b></p>
+
+    <div class="rating-logos">
+      <img src="https://drapoorvdua.com/wp-content/uploads/2025/06/admin-ajax-21.webp">
+      <div class="stars">★★★★★</div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
+    </div>
+
+    <div class="slider-wrapper">
+      <div class="review-slider" id="reviewSlider">
+
+        <!-- CARD 1 -->
+        <div class="review-card">
+          <h4>shahrukh chaudhary</h4>
+          <div class="card-stars">★★★★★</div>
+          <p>One of my favourite orthopedic surgeon.</p>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="review-card">
+          <h4>Mihika Aggarwal</h4>
+          <div class="card-stars">★★★★★</div>
+          <p>Dr Apoorv Dua was incredibly helpful and patient.</p>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="review-card">
+          <h4>shirin mehrotra</h4>
+          <div class="card-stars">★☆☆☆☆</div>
+          <p>Unprofessional and unethical experience.</p>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="review-card">
+          <h4>Abhishek Rana</h4>
+          <div class="card-stars">★★★★★</div>
+          <p>An outstanding orthopedist with great care.</p>
+        </div>
+
+        <div class="review-card">
+          <h4>shahrukh chaudhary</h4>
+          <div class="card-stars">★★★★★</div>
+          <p>One of my favourite orthopedic surgeon.</p>
+        </div>
+
+        <div class="review-card">
+          <h4>shirin mehrotra</h4>
+          <div class="card-stars">★☆☆☆☆</div>
+          <p>Unprofessional and unethical experience.</p>
+        </div>
+
+        <!-- ADD MORE CARDS SAME WAY -->
+      </div>
+    </div>
+
+    <div class="dots" id="reviewDots"></div>
+
+  </section>
+
+
+  <!-- Footer Section -->
+   <footer class="footer">
+  <div class="footer-container">
+
+    <div>
+      <div class="logo">
+        <img src="https://drapoorvdua.com/wp-content/uploads/2024/09/Untitled-design-1-2.webp" alt="logo">
+      </div>
+      <p>
+        Dr Apoorv is one of the best orthopedic surgeons in South Delhi.
+        Specialised in Knee, Hip & Shoulder Replacement and Sports Injury treatments.
+      </p>
+    </div>
+
+    <div>
+      <h3>QUICK LINKS</h3>
+      <ul>
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Videos</li>
+        <li>Photos</li>
+        <li>Rehabilitation</li>
+        <li>Blog</li>
+        <li>Contact Us</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>SERVICES</h3>
+      <ul>
+        <li>Knee Replacement</li>
+        <li>Hip Replacement</li>
+        <li>ACL Surgery</li>
+        <li>Shoulder Replacement</li>
+        <li>Rotator Cuff Repair</li>
+        <li>Sports Injury</li>
+      </ul>
+    </div>
+
+    <div class="contact">
+      <h3>CONTACT</h3>
+      <p>📍 M‑85, 80 Feet Rd, Greater Kailash II, New Delhi 110048</p>
+      <p>📍 Vasant Kunj, New Delhi 110070</p>
+      <p>📞 +91‑9034333133</p>
+      <p>📞 +91‑96674 44911</p>
+      <p>✉ drduamultispecialitycentre@gmail.com</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <div>© 2026 Dr Apoorv Dua Clinic | Designed by Artistry Media</div>
+    <div class="social">
+      <a href="#">f</a>
+      <a href="#">in</a>
+      <a href="#">ig</a>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
